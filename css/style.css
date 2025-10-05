@@ -1,0 +1,227 @@
+/*Elements*//*----------------------------------------------------------------*/
+
+@font-face {
+	font-family: TrajanPro;
+	src: url(../assets/fonts/TrajanPro.ttf);
+}
+
+@font-face {
+	font-family: Perpetua;
+	src: url(../assets/fonts/Perpetua.ttf);
+}
+
+:root {
+	/*character*/
+	--color-red-maiden: rgb(255, 100, 100);
+	/*area*/
+	--color-moss-grotto: rgb(150, 210, 130);
+	--color-the-marrow: rgb(175, 175, 175);
+	--color-hunters-march: rgb(190, 90, 70);
+	--color-deep-docks: rgb(215, 150, 75);
+	--color-far-fields: rgb(150, 170, 100);
+	--color-wormways: rgb(150, 130, 110);
+	--color-greymoor: rgb(150, 190, 180);
+	--color-shellwood: rgb(180, 180, 150);
+	--color-bellhart: rgb(250, 200, 140);
+	/*category*/
+	--color-category-title: rgb(175, 175, 175);
+	/*action*/
+	--color-optional: rgb(225, 175, 75);
+	--color-essential: white;
+}
+
+/*General Styles*//*----------------------------------------------------------*/
+
+body {
+	font-family: Perpetua;
+	font-size: 20px;
+	color: white;
+	background-color: #2a2a2a;
+}
+
+/*Act*//*---------------------------------------------------------------------*/
+
+section.act-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+	background-image: url('../assets/images/menu/Menu_Theme_Silksong.png');
+	filter: brightness(0.5) blur(5px);
+	background-size: cover;
+	background-position: 80%;
+	background-repeat: no-repeat;
+}
+
+/* Act Header */
+h1.act {
+	font-size: 1em;
+	font-family: TrajanPro;
+	text-align: center;
+	filter:
+		drop-shadow(0px 2.5px 5px black)
+		drop-shadow(0px 5px 2.5px black);
+}
+
+h1.act hr {
+	height: 30px;
+	border: none;
+	background-image: var(--act-background, url(../assets/images/menu/hr_Pharloom.png));
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+h1.act .act-number {
+	font-size: 1.8em;
+}
+
+h1.act .act-title {
+	font-size: 5em;
+	font-weight: bold;
+}
+
+/*Advancement*//*-------------------------------------------------------------*/
+
+/* Advancement Header */
+h2.advancement {
+	display: flex;
+	font-size: 1.5em;
+	font-family: TrajanPro;
+	align-items: center;
+	margin: 15px auto;
+	filter:
+		drop-shadow(0px 2.5px 5px black)
+		drop-shadow(0px 2.5px 2.5px black);
+}
+h2.advancement .hr-left, .advancement .hr-right {
+	flex-grow: 1;
+	height: 1px;
+}
+
+h2.advancement .title {
+	padding: 0 15px;
+	font-size: 1.75em;
+	line-height: 1.5em;
+	margin: 2em auto;
+}
+
+h2.advancement .hr-left {
+	background: var(--hr-left-gradient, linear-gradient(to left, white, transparent));
+}
+
+h2.advancement .hr-right {
+	background: var(--hr-right-gradient, linear-gradient(to right, white, transparent));
+}
+
+/*Area*//*--------------------------------------------------------------------*/
+
+/* Area Header */
+section.area {
+	font-size: 1em;
+}
+
+section.area h3,
+section.area h4 {
+	margin-top: 0px;
+	font-family: TrajanPro;
+	color: var(--area-title-color, white);
+	filter: drop-shadow(0px 2.5px 2.5px black);
+}
+
+section.area h3 {
+	text-align: center;
+	font-size: 2em;
+	transform: scaleY(1.25);
+	margin-bottom: 15px;
+}
+
+section.area h4 {
+	text-align: left;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	font-size: 1.5em;
+	color: rgb(215, 215, 215);
+}
+
+section.area .hr-right {
+	flex-grow: 1;
+	height: 1px;
+	background: var(--hr-right-gradient, linear-gradient(to right, white, transparent));
+}
+
+section.area h5 {
+	font-family: Perpetua;
+	text-align: left;
+	margin-top: 0px;
+	margin-left: 30px;
+	margin-bottom: -10px;
+	font-size: 1.5em;
+	filter: drop-shadow(0px 2px 1px black);
+	color: var(--category-title-color, white);
+}
+
+section.area a {
+	text-decoration: none;
+}
+
+/* Area Section */
+section.area {
+	position: relative;
+	z-index: 1;
+	padding-top: 0rem;
+	padding-bottom: 0.5rem;
+	text-shadow: 0 1px 3px black;
+}
+
+section.area::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	background-image: var(--area-background, url(../assets/images/menu/Menu_Theme_Abyss.png));
+	background-size: cover;
+	background-position: center;
+	filter: brightness(0.75) blur(3px);
+	
+	mask-image: 
+	linear-gradient(to bottom,
+	transparent 0%,
+	black 50px,
+	black calc(100% - 25px),
+	transparent 100%
+	);
+	z-index: -1;
+}
+
+/*objective*//*---------------------------------------------------------------*/
+
+/* Checkbox */
+ul.objective-list {
+	list-style-type: none;
+	filter:
+	drop-shadow(0px 0px 2px rgb(0, 0, 0));
+	font-size: 20px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.icon {
+	height: 50px;
+	width: 50px;
+	object-fit: contain;
+	vertical-align: -15px;
+}
+
+.hover-description li {
+	margin-bottom: 5px;
+}
+
+/*----------------------------------------------------------------------------*/

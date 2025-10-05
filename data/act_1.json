@@ -1,0 +1,882 @@
+{
+"advancement": [
+{
+	"action": "ENTER",
+	"entity": "Pharloom",
+	"action-color": "var(--color-essential)",
+	"entity-color": "white",
+	"area": [{
+		"title": "THE SEALED CAGE",
+		"area-color": "var(--color-maidens-ascent)",
+		"area-background": "Silksong_Opening.png",
+		"sub-area": [{
+			"title": "Default Belongings",
+			"lists": [{
+				"upgrades": [
+					{"name": "Bind"},
+					{"name": "Hunter's Cloak"},
+					{"name": "Tool Pouch"},
+					{"name": "Hunter Crest"},
+					{"name": "Needle"}
+				],
+				"materium": [
+					{"name": "Silk"},
+					{"name": "Shell Shards"},
+					{"name": "Rosaries"},
+					{"name": "Shell Rosaries"},
+					{"name": "Pearl Rosaries"}
+				]
+			}]
+		}]
+	}]
+},
+{
+	"action": "BIND",
+	"entity": "Hornet",
+	"action-color": "var(--color-essential)",
+	"entity-color": "var(--color-red-maiden)",
+	"area": [{
+		"title": "MOSS GROTTO",
+		"area-color": "var(--color-moss-grotto)",
+		"area-background": "Area_Moss_Grotto.png",
+		"sub-area": [
+		{
+			"title": "General Area",
+			"lists": [{
+				"quest-items": [
+					{"name": "Mossberry"},
+					{"name": "Mossberry"}
+				],
+				"consumables": [
+					{"name": "Beast Shard"},
+					{"name": "Frayed Rosary String"}
+				],
+				"journal": [
+					{"name": "Marrowmaw"},
+					{"name": "Mossgrub"},
+					{"name": "Mossmir"},
+					{"name": "Mawling"},
+					{"name": "Moss Mother"}
+				]
+			}]
+		},
+		{
+			"title": "Ruined Chapel",
+			"lists": [{
+				"npcs": [
+					{"name": "Chapel Maid"}
+				],
+				"wishes": [
+					{"name": "SEEK: The Great Citadel", "icon": "The Great Citadel"}
+				]
+			}]
+		}]
+	}]
+},
+{
+	"action": "AQUIRE",
+	"entity": "The Great Citadel",
+	"action-color": "var(--color-essential)",
+	"entity-color": "white",
+	"area": [{
+		"title": "MOSS GROTTO",
+		"area-color": "var(--color-moss-grotto)",
+		"area-background": "Area_Bone_Bottom.png",
+		"sub-area": [
+		{
+			"title": "Bone Bottom",
+			"lists": [{
+				"npcs": [
+					{"name": "Little Pilgrim / Pilby", "icon": "Pilby"},
+					{"name": "Fearful Pilgrim"},
+					{"name": "Pebb"},
+					{"name": "Flick the Fixer"}
+				],
+				"quest-items": [
+					{"name": "Craftmetal"},
+					{"name": "Simple Key"}
+				],
+				"upgrades": [
+					{"name": "Mask Shard"}
+				],
+				"tools": [
+					{"name": "Magnetite Brooch"}
+				]
+			}]
+		},
+		{
+			"title": "Moss Home",
+			"lists": [{
+				"quest-items": [
+					{"name": "Mossberry"},
+					{"name": "Choral Commandment"}
+				],
+				"upgrades": [
+					{"name": "Spool Fragment"},
+					{"name": "Mask Shard"},
+					{"name": "Silkspear"}
+				],
+				"journal": [
+					{"name": "Pilgrim Groveller"},
+					{"name": "Pilgrim Pouncer"},
+					{"name": "Aknid"},
+					{"name": "Overgrown_Pilgrim"}
+				]
+			}]
+		}]
+	},
+	{
+		"title": "THE MARROW",
+		"area-color": "var(--color-the-marrow)",
+		"area-background": "Area_The_Marrow.png",
+		"sub-area": [
+		{
+			"title": "General Area",
+			"lists": [{
+				"mappings": [
+					{"name": "Mosslands Map"},
+					{"name": "The Marrow Map"},
+					{"name": "Quill"},
+					{"name": "Bench Pins"},
+					{"name": "Shell Marker"}
+				],
+				"npcs": [
+					{"name": "Sherma"},
+					{"name": "Shakra"}
+				],
+				"tools": [
+					{"name": "Shard Pendant"},
+					{"name": "Compass"}
+				],
+				"consumables": [
+					{"name": "Frayed Rosary String"}
+				],
+				"journal": [
+					{"name": "Skull Scuttler"},
+					{"name": "Skull Brute"},
+					{"name": "Beastfly"},
+					{"name": "Caranid"},
+					{"name": "Kilik"}
+				]
+			}
+		]},
+		{
+			"title": "Flea Caravan",
+			"lists": [{
+				"npcs": [
+					{"name": "Fleamaster Mooshka"},
+					{"name": "Grishkin" },
+					{"name": "Varga" }
+				],
+				"wishes": [
+					{"name": "The Lost Fleas", "icon": "Wayfarer"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "WORMWAYS",
+		"area-color": "var(--color-wormways)",
+		"area-background": "Area_Wormways.png",
+		"sub-area": [
+		{
+			"title": "Entrance",
+			"lists": [{
+				"consumables": [
+					{"name": "Beast Shard"}
+				],
+				"journal": [
+					{"name": "Craggler"}
+				]
+			}]
+		}
+	]}
+]},
+{
+	"action": "USE",
+	"entity": "Simple Key",
+	"action-color": "var(--color-optional)",
+	"entity-color": "white",
+	"area": [
+	{
+		"title": "MOSS GROTTO",
+		"area-color": "var(--color-moss-grotto)",
+		"area-background": "Chapel_Wanderer.png",
+		"sub-area": [
+		{
+			"title": "Bonegrave",
+			"lists": [{
+				"quest-items": [
+					{"name": "Mossberry"}
+				]
+			}
+		]},
+		{
+			"title": "Chapel of the Wanderer",
+			"lists": [{
+				"upgrades": [
+					{"name": "Wanderer Crest"}
+				],
+				"journal": [
+					{"name": "Winged Pilgrim"},
+					{"name": "Pilgrim_Hulk"},
+					{"name": "Pilgrim Guide"},
+					{"name": "Pilgrim Hornfly"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "WORMWAYS",
+		"area-color": "var(--color-wormways)",
+		"area-background": "Area_Wormways.png",
+		"sub-area": [
+		{
+			"title": "General Area",
+			"lists": [{
+				"journal": [
+					{"name": "Gromling"}
+				]
+			}
+		]}
+	]}
+]},
+{
+	"action": "USE",
+	"entity": "Silkspear",
+	"action-color": "var(--color-essential)",
+	"entity-color": "white",
+	"area": [
+	{
+		"title": "MOSS GROTTO",
+		"area-color": "var(--color-moss-grotto)",
+		"area-background": "Area_Moss_Home.png",
+		"sub-area": [
+		{
+			"title": "Moss Home",
+			"lists": [{
+				"npcs": [
+					{"name": "Moss Druid"}
+				],
+				"wishes": [
+					{"name": "Berry Picking", "icon": "Gather"}
+				],
+				"quest-items": [
+					{"name": "Mossberry"}
+				],
+				"granted": [
+					{"name": "Berry Picking ", "icon": "Gather"}
+				],
+				"tools": [
+					{"name": "Druid's Eye"}
+				],
+				"consumables": [
+					{"name": "Frayed Rosary String"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "THE MARROW",
+		"area-color": "var(--color-the-marrow)",
+		"area-background": "Bellway_Marrow.png",
+		"sub-area": [
+		{
+			"title": "Bellway",
+			"lists": [{
+				"upgrades": [
+					{"name": "Silk Heart"}
+				],
+				"journal": [
+					{"name": "Bell Beast"}
+				]
+			}
+		]}
+	]}
+]},
+{
+	"action": "AQUIRE",
+	"entity": "Silk Heart",
+	"action-color": "var(--color-essential)",
+	"entity-color": "white",
+	"area": [
+	{
+		"title": "MOSS GROTTO",
+		"area-color": "var(--color-moss-grotto)",
+		"area-background": "Area_Bone_Bottom.png",
+		"sub-area": [
+		{
+			"title": "Bone Bottom",
+			"lists": [{
+				"mappings": [
+					{"name": "Bellway Pins"}
+				],
+				"npcs": [
+					{"name": "Horned Pilgrim"}
+				],
+				"wishes": [
+					{"name": "Bone Bottom Repairs", "icon": "Donate"},
+					{"name": "Garb of the Pilgrims", "icon": "Hunt"}
+				],
+				"granted": [
+					{"name": "Bone Bottom Repairs ", "icon": "Donate"},
+					{"name": "Garb of the Pilgrims ", "icon": "Hunt"}
+				],
+				"consumables": [
+					{"name": "Rosary Necklace"}
+				]
+			}
+		]},
+		{
+			"title": "Moss Home",
+			"lists": [{
+				"quest-items": [
+					{"name": "Pilgrim Shawl"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "THE MARROW",
+		"area-color": "var(--color-the-marrow)",
+		"area-background": "Area_The_Marrow_Bellway.png",
+		"sub-area": [
+		{
+			"title": "Bellway Entrance",
+			"lists": [{
+				"npcs": [
+					{"name": "Grindle"}
+				],
+				"quest-items": [
+					{"name": "Flea"},
+					{"name": "Craftmetal"}
+				],
+				"upgrades": [
+					{"name": "Mask Shard"}
+				],
+				"tools": [
+					{"name": "Straight Pin"}
+				],
+				"journal": [
+					{"name": "Smelt Shoveller"},
+					{"name": "Flintstone Flyer"},
+					{"name": "Smokerock Sifter"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "HUNTER'S MARCH",
+		"area-color": "var(--color-hunters-march)",
+		"area-background": "Area_Hunters_March.png",
+		"sub-area": [
+		{
+			"title": "Default",
+			"lists": [{
+				"mappings": [
+					{"name": "Hunter's March Map"},
+					{"name": "Hunt Marker"}
+				],
+				"npcs": [
+					{"name": "Gilly"}
+				],
+				"quest-items": [
+					{"name": "Flea"}
+				],
+				"upgrades": [
+					{"name": "Memory Locket"}
+				],
+				"consumables": [
+					{"name": "Rosary Necklace"},
+					{"name": "Frayed Rosary String"}
+				],
+				"journal": [
+					{"name": "Skarrgard"},
+					{"name": "Skarrlid"},
+					{"name": "Skarrwing"},
+					{"name": "Skarr Scout"},
+					{"name": "Skarr Stalker"},
+					{"name": "Spear Skarr"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "DEEP DOCKS",
+		"area-color": "var(--color-deep-docks)",
+		"area-background": "Area_Deep_Docks.png",
+		"sub-area": [
+		{
+			"title": "Default",
+			"lists": [{
+				"mappings": [
+					{"name": "Deep Docks Map"}
+				],
+				"npcs": [
+					{"name": "Forge Daughter"},
+					{"name": "Ballow"}
+				],
+				"quest-items": [
+					{"name": "Flea"}
+				],
+				"upgrades": [
+					{"name": "Crafting Kit"},
+					{"name": "Spool Fragment"},
+					{"name": "Swift Step"}
+				],
+				"tools": [
+					{"name": "Sting Shard"},
+					{"name": "Magma Bell"}
+				],
+				"consumables": [
+					{"name": "Shard Bundle"}
+				],
+				"journal": [
+					{"name": "Hardbone Hopper"},
+					{"name": "Lavalug"}
+				]
+			}
+		]}
+	]}
+]},
+{
+	"action": "USE",
+	"entity": "Swift Step",
+	"action-color": "var(--color-essential)",
+	"entity-color": "white",
+	"area": [
+	{
+		"title": "MOSS GROTTO",
+		"area-color": "var(--color-moss-grotto)",
+		"area-background": "Area_Moss_Grotto_Cliffside.png",
+		"sub-area": [
+		{
+			"title": "Cliffside",
+			"lists": [{
+				"quest-items": [
+					{"name": "Weaver Effigy"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "THE MARROW",
+		"area-color": "var(--color-the-marrow)",
+		"area-background": "Area_The_Marrow.png",
+		"sub-area": [
+		{
+			"title": "Flea Caravan",
+			"lists": [{
+				"granted": [
+					{"name": "The Lost Fleas ", "icon": "Wayfarer"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "HUNTER'S MARCH",
+		"area-color": "var(--color-hunters-march)",
+		"area-background": "Area_Hunters_March.png",
+		"sub-area": [
+		{
+			"title": "Hideaway",
+			"lists": [{
+				"npcs": [
+					{"name": "Mottled Skarr"}
+				],
+				"tools": [
+					{"name": "Curveclaw"},
+					{"name": "Fractured Mask"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "DEEP DOCKS",
+		"area-color": "var(--color-deep-docks)",
+		"area-background": "Area_Deep_Docks_Lace.png",
+		"sub-area": [
+		{
+			"title": "General Area",
+			"lists": [{
+				"quest-items": [
+					{"name": "Flea"},
+					{"name": "Craftmetal"}
+				],
+				"journal": [
+					{"name": "Lace (Missable)", "icon": "Lace"},
+					{"name": "Flintflame Flyer"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "FAR FIELDS",
+		"area-color": "var(--color-far-fields)",
+		"area-background": "Area_Far_Fields.png",
+		"sub-area": [
+		{
+			"title": "General Area",
+			"lists": [{
+				"mappings": [
+					{"name": "Far Fields Map"}
+				],
+				"quest-items": [
+					{"name": "Flea"}
+				],
+				"tools": [
+					{"name": "Warding Bell"}
+				],
+				"journal": [
+					{"name": "Brushflit"},
+					{"name": "Fertid"},
+					{"name": "Flapping Fertid"},
+					{"name": "Vicious Caranid"}
+				]
+			}
+		]},
+		{
+			"title": "Pilgrim's Rest",
+			"lists": [{
+				"npcs": [
+					{"name": "Weary Pilgrim"},
+					{"name": "Mort"}
+				],
+				"upgrades": [
+					{"name": "Tool Pouch"},
+					{"name": "Memory Locket"}
+				],
+				"tools": [
+					{"name": "Weighted Belt"}
+				]
+			}
+		]
+		}
+	]},
+	{
+		"title": "WORMWAYS",
+		"area-color": "var(--color-wormways)",
+		"area-background": "Area_Wormways.png",
+		"sub-area": [
+		{
+			"title": "General Area",
+			"lists": [{
+				"mappings": [
+					{"name": "Wormways Map"}
+				],
+				"quest-items": [
+					{"name": "Flea"}
+				],
+				"tools": [
+					{"name": "Dead Bug's Purse"}
+				],
+				"journal": [
+					{"name": "Winged Pilgrim Bellbearer"}
+				]
+			}
+		]}
+	]}
+]},
+{
+	"action": "TRAPPED",
+	"entity": "Far Fields",
+	"action-color": "var(--color-optional)",
+	"entity-color": "white",
+	"area": [
+	{
+		"title": "FAR FIELDS",
+		"area-color": "var(--color-far-fields)",
+		"area-background": "Area_Far_Fields_Hut.png",
+		"sub-area": [
+		{
+			"title": "General Area",
+			"lists": [{
+				"npcs": [
+					{"name": "Seamstress"}
+				],
+				"wishes": [
+					{"name": "Flexile Spines", "icon": "Hunt"}
+				],
+				"quest-items": [
+					{"name": "Spine Core"}
+				],
+				"granted": [
+					{"name": "Flexile Spines ", "icon": "Hunt"}
+				],
+				"upgrades": [
+					{"name": "Drifter's Cloak"}
+				],
+				"consumables": [
+					{"name": "Rosary String"}
+				],
+				"journal": [
+					{"name": "Hoker"}
+				]
+			}
+		]}
+	]}
+]},
+{
+	"action": "USE",
+	"entity": "Drifter's Cloak",
+	"action-color": "var(--color-optional)",
+	"entity-color": "white",
+	"area": [
+		{
+		"title": "HUNTER'S MARCH",
+		"area-color": "var(--color-hunters-march)",
+		"area-background": "Chapel_Beast.png",
+		"sub-area": [
+		{
+			"title": "Chapel of the Beast",
+			"lists": [{
+				"upgrades": [
+					{"name": "Beast Crest"}
+				],
+				"journal": [
+					{"name": "Savage Beastfly"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "FAR FIELDS",
+		"area-color": "var(--color-far-fields)",
+		"area-background": "Area_Far_Fields_Exit.png",
+		"sub-area": [
+		{
+			"title": "General Area",
+			"lists": [{
+				"quest-items": [
+					{"name": "Bone Scroll"}
+				],
+				"upgrades": [
+					{"name": "Mask Shard"}
+				],
+				"journal": [
+					{"name": "Fourth Chorus"}
+				]
+			}
+		]}
+	]}
+]},
+{
+	"action": "DISCOVER",
+	"entity": "Greymoor & Shellwood",
+	"action-color": "var(--color-essential)",
+	"entity-color": "white",
+	"area": [
+	{
+		"title": "MOSS GROTTO",
+		"area-color": "var(--color-moss-grotto)",
+		"area-background": "Area_Bone_Bottom.png",
+		"sub-area": [
+		{
+			"title": "Bone Bottom",
+			"lists": [{
+				"wishes": [
+					{"name": "Volatile Flintbeetles", "icon": "Hunt"},
+					{"name": "A Lifesaving Bridge", "icon": "Donate"}
+				],
+				"granted": [
+					{"name": "Volatile Flintbeetles ", "icon": "Hunt"},
+					{"name": "A Lifesaving Bridge ", "icon": "Donate"}
+				],
+				"upgrades": [
+					{"name": "Memory Locket"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "THE MARROW",
+		"area-color": "var(--color-the-marrow)",
+		"area-background": "Area_The_Marrow.png",
+		"sub-area": [
+		{
+			"title": "General Area",
+			"lists": [{
+				"quest-items": [
+					{"name": "Flintgem"}
+				],
+				"journal": [
+					{"name": "Flintbeetle"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "GREYMOOR",
+		"area-color": "var(--color-greymoor)",
+		"area-background": "Area_Greymoor.png",
+		"sub-area": [
+		{
+			"title": "General Area",
+			"lists": [{
+				"mappings": [
+					{"name": "Greymoor Map"}
+				],
+				"npcs": [
+					{"name": "Garmond & Zaza"}
+				],
+				"quest-items": [
+					{"name": "Bone Scroll"}
+				],
+				"upgrades": [
+					{"name": "Memory Locket"},
+					{"name": "Spool Fragment"}
+				],
+				"tools": [
+					{"name": "Flea Brew"}
+				],
+				"consumables": [
+					{"name": "Shard Bundle"},
+					{"name": "Shard Bundle"},
+					{"name": "Frayed Rosary String"}
+				],
+				"journal": [
+					{"name": "Pilgrim Bellbearer"},
+					{"name": "Mite"},
+					{"name": "Fluttermite"},
+					{"name": "Mitemother"},
+					{"name": "Dreg Catcher"},
+					{"name": "Silk Snipper"},
+					{"name": "Thread Raker"},
+					{"name": "Roachcatcher"},
+					{"name": "Shardillard"}
+				]
+			}
+		]},
+		{
+			"title": "Crawlake",
+			"lists": [{
+				"quest-items": [
+					{"name": "Flea"}
+				],
+				"upgrades": [
+					{"name": "Thread Storm"}
+				],
+				"tools": [
+					{"name": "Threefold Pin"}
+				],
+				"consumables": [
+					{"name": "Frayed Rosary String"}
+				],
+				"journal": [
+					{"name": "Craw"},
+					{"name": "Tallcraw"},
+					{"name": "Squatcraw"}
+				]
+			}
+		]},
+		{
+			"title": "Halfway Home",
+			"lists": [{
+				"npcs": [
+					{"name": "Creige"},
+					{"name": "Nuu"}
+				],
+				"wishes": [
+					{"name": "Bugs of Pharloom"}
+				],
+				"upgrades": [
+					{"name": "Hunter's Journal"}
+				]
+			}
+		]},
+		{
+			"title": "Chapel of the Reaper",
+			"lists": [{
+				"upgrades": [
+					{"name": "Reaper Crest"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "SHELLWOOD",
+		"area-color": "var(--color-shellwood)",
+		"area-background": "Area_Shellwood.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"mappings": [
+					{"name": "Shellwood Map"}
+				],
+				"npcs": [
+					{"name": "Greyroot"}
+				],
+				"wishes": [
+					{"name": "Rite of the Pollip", "icon": "Gather"}
+				],
+				"quest-items": [
+					{"name": "Pollip Heart"},
+					{"name": "Pollip Heart"},
+					{"name": "Pollip Heart"}
+				],
+				"upgrades": [
+					{"name": "Mask Shard"}
+				],
+				"tools": [
+					{"name": "Longpin"}
+				],
+				"consumables": [
+					{"name": "Frayed Rosary String"},
+					{"name": "Rosary String"}
+				],
+				"journal": [
+					{"name": "Pondcatcher"},
+					{"name": "Pond Skipper"},
+					{"name": "Covetous Pilgrim"},
+					{"name": "Phacia"},
+					{"name": "Pollenica"},
+					{"name": "Shellwood Gnat"},
+					{"name": "Wood Wasp"},
+					{"name": "Gahlia"},
+					{"name": "Splinter"},
+					{"name": "Splinterhorn"},
+					{"name": "Sister Splinter"},
+					{"name": "Splinterbark"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "HAUNTED BELLHART",
+		"area-color": "var(--color-bellhart)",
+		"area-background": "Area_Haunted_Bellhart.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"wishes": [
+					{"name": "SAVE: The Threadspun Town", "icon": "The Threadspun Town"}
+				]
+			}
+		]}
+	]}
+]},
+{
+	"action": "AQUIRE",
+	"entity": "The Threadspun Town",
+	"action-color": "var(--color-essential)",
+	"entity-color": "white",
+	"area": [
+	{
+		"title": "MOSS GROTTO",
+		"area-color": "var(--color-moss-grotto)",
+		"area-background": "Area_Bone_Bottom.png",
+		"sub-area": [
+		{
+			"title": "Bone Bottom",
+			"lists": [{
+				"mappings": [
+					{"name": "Bellhart Map"}
+				]
+			}
+		]}
+	]}
+]}
+
+]}

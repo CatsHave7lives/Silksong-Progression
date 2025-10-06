@@ -1,6 +1,23 @@
 import * as objective from './objectiveLists.js';
 
 document.addEventListener('DOMContentLoaded', async function () {
+	document.body.addEventListener('change', function(e) {
+        if (e.target.matches('input[type="checkbox"]')) {
+            localStorage.setItem(e.target.id, e.target.checked);
+        }
+    });
+	// ... inside 'DOMContentLoaded' ...
+
+function loadCheckboxStates() {
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(checkbox => {
+        const savedState = localStorage.getItem(checkbox.id);
+        // If a saved state exists, apply it
+        if (savedState !== null) {
+            checkbox.checked = (savedState === 'true');
+        }
+    });
+}
 	try {
 		const container = document.getElementById('content-container');
 		if (!container) { return; }
@@ -63,6 +80,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 			});
 		});
 		container.innerHTML = generatedHTML;
+		loadCheckboxStates();
 	} catch (error) {
 		console.error("Failed to load or process data:", error);
 	}

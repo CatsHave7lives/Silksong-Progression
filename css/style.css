@@ -225,3 +225,7 @@ ul.objective-list {
 }
 
 /*----------------------------------------------------------------------------*/
+
+input[type="checkbox"]:checked + label {
+	filter: brightness(50%);
+}

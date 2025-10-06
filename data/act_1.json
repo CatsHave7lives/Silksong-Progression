@@ -20,11 +20,7 @@
 					{"name": "Needle"}
 				],
 				"materium": [
-					{"name": "Silk"},
-					{"name": "Shell Shards"},
-					{"name": "Rosaries"},
-					{"name": "Shell Rosaries"},
-					{"name": "Pearl Rosaries"}
+					{"name": "Silk"}
 				]
 			}]
 		}]
@@ -41,7 +37,7 @@
 		"area-background": "Area_Moss_Grotto.png",
 		"sub-area": [
 		{
-			"title": "General Area",
+			"title": "",
 			"lists": [{
 				"quest-items": [
 					{"name": "Mossberry"},
@@ -57,6 +53,12 @@
 					{"name": "Mossmir"},
 					{"name": "Mawling"},
 					{"name": "Moss Mother"}
+				],
+				"materium": [
+					{"name": "Shell Shards"},
+					{"name": "Rosaries"},
+					{"name": "Shell Rosaries"},
+					{"name": "Pearl Rosaries"}
 				]
 			}]
 		},
@@ -74,7 +76,7 @@
 	}]
 },
 {
-	"action": "AQUIRE",
+	"action": "ACQUIRE",
 	"entity": "The Great Citadel",
 	"action-color": "var(--color-essential)",
 	"entity-color": "white",
@@ -113,45 +115,46 @@
 				],
 				"upgrades": [
 					{"name": "Spool Fragment"},
-					{"name": "Mask Shard"},
 					{"name": "Silkspear"}
 				],
 				"journal": [
-					{"name": "Pilgrim Groveller"},
 					{"name": "Pilgrim Pouncer"},
-					{"name": "Aknid"},
-					{"name": "Overgrown_Pilgrim"}
+					{"name": "Overgrown_Pilgrim"},
+					{"name": "Pilgrim Groveller"},
+					{"name": "Aknid"}
 				]
-			}]
-		}]
+				}]
+				}]
 	},
 	{
 		"title": "THE MARROW",
 		"area-color": "var(--color-the-marrow)",
 		"area-background": "Area_The_Marrow.png",
 		"sub-area": [
-		{
-			"title": "General Area",
+			{
+			"title": "",
 			"lists": [{
 				"mappings": [
 					{"name": "Mosslands Map"},
 					{"name": "The Marrow Map"},
 					{"name": "Quill"},
 					{"name": "Bench Pins"},
-					{"name": "Shell Marker"}
+					{"name": "Vendor Pins"},
+					{"name": "Shell Marker"},
+					{"name": "Ring Marker"}
 				],
 				"npcs": [
 					{"name": "Sherma"},
 					{"name": "Shakra"}
-				],
-				"tools": [
+					],
+					"tools": [
 					{"name": "Shard Pendant"},
 					{"name": "Compass"}
-				],
-				"consumables": [
-					{"name": "Frayed Rosary String"}
-				],
-				"journal": [
+					],
+					"consumables": [
+						{"name": "Frayed Rosary String"}
+					],
+					"journal": [
 					{"name": "Skull Scuttler"},
 					{"name": "Skull Brute"},
 					{"name": "Beastfly"},
@@ -171,9 +174,9 @@
 				"wishes": [
 					{"name": "The Lost Fleas", "icon": "Wayfarer"}
 				]
-			}
-		]}
-	]},
+			}]
+		}]
+	},
 	{
 		"title": "WORMWAYS",
 		"area-color": "var(--color-wormways)",
@@ -182,6 +185,9 @@
 		{
 			"title": "Entrance",
 			"lists": [{
+				"upgrades": [
+					{"name": "Mask Shard"}
+				],
 				"consumables": [
 					{"name": "Beast Shard"}
 				],
@@ -232,7 +238,7 @@
 		"area-background": "Area_Wormways.png",
 		"sub-area": [
 		{
-			"title": "General Area",
+			"title": "",
 			"lists": [{
 				"journal": [
 					{"name": "Gromling"}
@@ -295,7 +301,7 @@
 	]}
 ]},
 {
-	"action": "AQUIRE",
+	"action": "ACQUIRE",
 	"entity": "Silk Heart",
 	"action-color": "var(--color-essential)",
 	"entity-color": "white",
@@ -351,16 +357,12 @@
 					{"name": "Flea"},
 					{"name": "Craftmetal"}
 				],
-				"upgrades": [
-					{"name": "Mask Shard"}
-				],
 				"tools": [
 					{"name": "Straight Pin"}
 				],
 				"journal": [
 					{"name": "Smelt Shoveller"},
-					{"name": "Flintstone Flyer"},
-					{"name": "Smokerock Sifter"}
+					{"name": "Flintstone Flyer"}
 				]
 			}
 		]}
@@ -387,8 +389,7 @@
 					{"name": "Memory Locket"}
 				],
 				"consumables": [
-					{"name": "Rosary Necklace"},
-					{"name": "Frayed Rosary String"}
+					{"name": "Rosary Necklace"}
 				],
 				"journal": [
 					{"name": "Skarrgard"},
@@ -420,6 +421,7 @@
 					{"name": "Flea"}
 				],
 				"upgrades": [
+					{"name": "Mask Shard"},
 					{"name": "Crafting Kit"},
 					{"name": "Spool Fragment"},
 					{"name": "Swift Step"}
@@ -429,9 +431,11 @@
 					{"name": "Magma Bell"}
 				],
 				"consumables": [
-					{"name": "Shard Bundle"}
+					{"name": "Shard Bundle"},
+					{"name": "Frayed Rosary String"}
 				],
 				"journal": [
+					{"name": "Smokerock Sifter"},
 					{"name": "Hardbone Hopper"},
 					{"name": "Lavalug"}
 				]
@@ -497,7 +501,7 @@
 		"area-background": "Area_Deep_Docks_Lace.png",
 		"sub-area": [
 		{
-			"title": "General Area",
+			"title": "",
 			"lists": [{
 				"quest-items": [
 					{"name": "Flea"},
@@ -516,7 +520,7 @@
 		"area-background": "Area_Far_Fields.png",
 		"sub-area": [
 		{
-			"title": "General Area",
+			"title": "",
 			"lists": [{
 				"mappings": [
 					{"name": "Far Fields Map"}
@@ -559,7 +563,7 @@
 		"area-background": "Area_Wormways.png",
 		"sub-area": [
 		{
-			"title": "General Area",
+			"title": "",
 			"lists": [{
 				"mappings": [
 					{"name": "Wormways Map"}
@@ -589,7 +593,7 @@
 		"area-background": "Area_Far_Fields_Hut.png",
 		"sub-area": [
 		{
-			"title": "General Area",
+			"title": "",
 			"lists": [{
 				"npcs": [
 					{"name": "Seamstress"}
@@ -645,7 +649,7 @@
 		"area-background": "Area_Far_Fields_Exit.png",
 		"sub-area": [
 		{
-			"title": "General Area",
+			"title": "",
 			"lists": [{
 				"quest-items": [
 					{"name": "Bone Scroll"}
@@ -694,7 +698,7 @@
 		"area-background": "Area_The_Marrow.png",
 		"sub-area": [
 		{
-			"title": "General Area",
+			"title": "",
 			"lists": [{
 				"quest-items": [
 					{"name": "Flintgem"}
@@ -711,7 +715,7 @@
 		"area-background": "Area_Greymoor.png",
 		"sub-area": [
 		{
-			"title": "General Area",
+			"title": "",
 			"lists": [{
 				"mappings": [
 					{"name": "Greymoor Map"}
@@ -743,6 +747,7 @@
 					{"name": "Silk Snipper"},
 					{"name": "Thread Raker"},
 					{"name": "Roachcatcher"},
+					{"name": "Moorwing"},
 					{"name": "Shardillard"}
 				]
 			}
@@ -811,12 +816,14 @@
 					{"name": "Rite of the Pollip", "icon": "Gather"}
 				],
 				"quest-items": [
+					{"name": "Flea"},
 					{"name": "Pollip Heart"},
 					{"name": "Pollip Heart"},
 					{"name": "Pollip Heart"}
 				],
 				"upgrades": [
-					{"name": "Mask Shard"}
+					{"name": "Mask Shard"},
+					{"name": "Cling Grip"}
 				],
 				"tools": [
 					{"name": "Longpin"}
@@ -848,7 +855,7 @@
 		"area-background": "Area_Haunted_Bellhart.png",
 		"sub-area": [
 		{
-			"title": "",
+			"title": "Entrance",
 			"lists": [{
 				"wishes": [
 					{"name": "SAVE: The Threadspun Town", "icon": "The Threadspun Town"}
@@ -858,7 +865,7 @@
 	]}
 ]},
 {
-	"action": "AQUIRE",
+	"action": "ACQUIRE",
 	"entity": "The Threadspun Town",
 	"action-color": "var(--color-essential)",
 	"entity-color": "white",
@@ -873,6 +880,239 @@
 			"lists": [{
 				"mappings": [
 					{"name": "Bellhart Map"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "HAUNTED BELLHART",
+		"area-color": "var(--color-bellhart)",
+		"area-background": "Area_Haunted_Bellhart.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"npcs": [
+					{"name": "Bell Hermit"}
+				]
+			}
+		]}
+	]}
+]},
+{
+	"action": "ACQUIRE",
+	"entity": "Cling Grip",
+	"action-color": "var(--color-essential)",
+	"entity-color": "white",
+	"area": [
+	{
+		"title": "MOSS GROTTO",
+		"area-color": "var(--color-moss-grotto)",
+		"area-background": "Area_Bone_Bottom.png",
+		"sub-area": [
+		{
+			"title": "Bone Bottom",
+			"lists": [{
+				"wishes": [
+					{"name": "The Terrible Tyrant", "icon": "Grand Hunt"}
+				],
+				"granted": [
+					{"name": "The Terrible Tyrant ", "icon": "Grand Hunt"}
+				],
+				"consumables": [
+					{"name": "Heavy Rosary Necklace"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "THE MARROW",
+		"area-color": "var(--color-the-marrow)",
+		"area-background": "Area_The_Marrow.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"quest-items": [
+					{"name": "Crown Fragment"}
+				],
+				"upgrades": [
+					{"name": "Memory Locket"}
+				],
+				"journal": [
+					{"name": "Elder Pilgrim"},
+					{"name": "Skull Tyrant"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "FAR FIELDS",
+		"area-color": "var(--color-far-fields)",
+		"area-background": "Area_Far_Fields.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"quest-items": [
+					{"name": "Flea"}
+				],
+				"consumables": [
+					{"name": "Beast Shard"}
+				],
+				"journal": [
+					{"name": "Rhinogrund"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "WORMWAYS",
+		"area-color": "var(--color-wormways)",
+		"area-background": "Area_Wormways.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"npcs": [
+					{"name": "Alchemist Zylotol"}
+				],
+				"wishes": [
+					{"name": "Alchemist's Assistant", "icon": "Gather"}
+				],
+				"quest-items": [
+					{"name": "Plasmium"}
+				],
+				"granted": [
+					{"name": "Alchemist's Assistant", "icon": "Gather"}
+				],
+				"upgrades": [
+					{"name": "Memory Locket"}
+				],
+				"tools": [
+					{"name": "Needle Phial"},
+					{"name": "Plasmium Phial"}
+				],
+				"consumables": [
+					{"name": "Frayed Rosary String"}
+				],
+				"journal": [
+					{"name": "Winged Lifeseed"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "GREYMOOR",
+		"area-color": "var(--color-grey-moor)",
+		"area-background": "Area_GreyMoor.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"npcs": [
+					{"name": "Kratt"}
+				],
+				"quest-items": [
+					{"name": "Flea"},
+					{"name": "Flea"}
+				],
+				"tools": [
+					{"name": "Pimpillo"}
+				],
+				"consumables": [
+					{"name": "Frayed Rosary String"},
+					{"name": "Silkeater"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "SHELLWOOD",
+		"area-color": "var(--color-shellwood)",
+		"area-background": "Area_Shellwood.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"quest-items": [
+					{"name": "Pollip Heart"},
+					{"name": "Pollip Heart"},
+					{"name": "Pollip Heart"}
+				],
+				"granted": [
+					{"name": "Rite of the Pollip ", "icon": "Gather"}
+				],
+				"tools": [
+					{"name": "Pollip Pouch"}
+				],
+				"consumables": [
+					{"name": "Shard Bundle"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "HAUNTED BELLHART",
+		"area-color": "var(--color-bellhart)",
+		"area-background": "Area_Haunted_Bellhart.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"quest-items": [
+					{"name": "Flea"}
+				],
+				"journal": [
+					{"name": "Furm"},
+					{"name": "Winged Furm"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "SINNER'S ROAD",
+		"area-color": "var(--color-sinners-road)",
+		"area-background": "Area_Sinners_Road.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"mappings": [
+					{"name": "Sinner's Road Map"}
+				],
+				"npcs": [
+					{"name": "Green Prince"},
+					{"name": "Crull & Benjin"},
+					{"name": "Styx"}
+				],
+				"wishes": [
+					{"name": "Roach Guts", "icon": "Hunt"}
+				],
+				"quest-items": [
+					{"name": "Flea"},
+					{"name": "Simple Key"}
+				],
+				"granted": [
+					{"name": "Roach Guts ", "icon": "Hunt"}
+				],
+				"upgrades": [
+					{"name": ""}
+				],
+				"tools": [
+					{"name": "Tacks"}
+				],
+				"consumables": [
+					{"name": "Frayed Rosary String"},
+					{"name": "Shard Bundle"}
+				],
+				"journal": [
+					{"name": "Muckroach"},
+					{"name": "Roachfeeder"},
+					{"name": "Roachkeeper"},
+					{"name": ""},
+					{"name": ""},
+					{"name": ""}
 				]
 			}
 		]}

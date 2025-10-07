@@ -6,43 +6,5 @@
 	"action-color": "var(--color-essential)",
 	"entity-color": "white",
 	"area": [
-	{
-		"title": "DEFAULT",
-		"area-color": "var(default)",
-		"area-background": "Area_Default.png",
-		"sub-area": [
-		{
-			"title": "",
-			"lists": [{
-				"mappings": [
-					{"name": ""}
-				],
-				"npcs": [
-					{"name": ""}
-				],
-				"wishes": [
-					{"name": "", "icon": ""}
-				],
-				"quest-items": [
-					{"name": ""}
-				],
-				"granted": [
-					{"name": " ", "icon": ""}
-				],
-				"upgrades": [
-					{"name": ""}
-				],
-				"tools": [
-					{"name": ""}
-				],
-				"consumables": [
-					{"name": ""}
-				],
-				"journal": [
-					{"name": ""}
-				]
-			}
-		]}
-	]}
 ]}
 ]}

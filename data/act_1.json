@@ -947,6 +947,26 @@
 		]}
 	]},
 	{
+		"title": "DEEP DOCKS",
+		"area-color": "var(--color-deep-docks)",
+		"area-background": "Area_Deep_Docks.png",
+		"sub-area": [
+		{
+			"title": "Simple Key Room",
+			"lists": [{
+				"tools": [
+					{"name": "Flintslate"}
+				],
+				"consumables": [
+					{"name": "Shard Bundle"}
+				],
+				"journal": [
+					{"name": "Deep Diver"}
+				]
+			}
+		]}
+	]},
+	{
 		"title": "FAR FIELDS",
 		"area-color": "var(--color-far-fields)",
 		"area-background": "Area_Far_Fields.png",
@@ -1063,9 +1083,13 @@
 				"quest-items": [
 					{"name": "Flea"}
 				],
+				"upgrades": [
+					{"name": "Needolin"}
+				],
 				"journal": [
 					{"name": "Furm"},
-					{"name": "Winged Furm"}
+					{"name": "Winged Furm"},
+					{"name": "Widow"}
 				]
 			}
 		]}
@@ -1087,20 +1111,19 @@
 					{"name": "Styx"}
 				],
 				"wishes": [
-					{"name": "Roach Guts", "icon": "Hunt"}
+					{"name": "Roach Guts (Wish)", "icon": "Hunt"}
 				],
 				"quest-items": [
 					{"name": "Flea"},
-					{"name": "Simple Key"}
+					{"name": "Simple Key"},
+					{"name": "Roach Guts"}
 				],
 				"granted": [
-					{"name": "Roach Guts ", "icon": "Hunt"}
-				],
-				"upgrades": [
-					{"name": ""}
+					{"name": "Roach Guts (Wish) ", "icon": "Hunt"}
 				],
 				"tools": [
-					{"name": "Tacks"}
+					{"name": "Tacks"},
+					{"name": "Barbed Bracelet"}
 				],
 				"consumables": [
 					{"name": "Frayed Rosary String"},
@@ -1110,9 +1133,104 @@
 					{"name": "Muckroach"},
 					{"name": "Roachfeeder"},
 					{"name": "Roachkeeper"},
-					{"name": ""},
-					{"name": ""},
-					{"name": ""}
+					{"name": "Wraith"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "BLASTED STEPS",
+		"area-color": "var(--color-blasted-steps)",
+		"area-background": "Area_Blasted_Steps.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"mappings": [
+					{"name": "Blasted Steps Map"}
+				],
+				"npcs": [
+					{"name": "Pinstress"},
+					{"name": "Lumble the Lucky"}
+				],
+				"wishes": [
+					{"name": "OPEN: Grand Gate", "icon": "Grand Gate"}
+				],
+				"quest-items": [
+					{"name": "Flea"},
+					{"name": "Craftmetal"}
+				],
+				"granted": [
+					{"name": "OPEN: Grand Gate ", "icon": "Grand Gate"}
+				],
+				"upgrades": [
+					{"name": "Memory Locket"},
+					{"name": "Needle Strike"}
+				],
+				"tools": [
+					{"name": "Magnetite Dice"}
+				],
+				"consumables": [
+					{"name": "Frayed Rosary String"},
+					{"name": "Beast Shard"}
+				],
+				"journal": [
+					{"name": "Sandcarver"},
+					{"name": "Judge"},
+					{"name": "Pharlid"},
+					{"name": "Pilgrim Hiker"},
+					{"name": "Driznit"},
+					{"name": "Great Conchflies"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "BILEWATER",
+		"area-color": "var(--color-bilewater)",
+		"area-background": "Area_Bilewater.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"upgrades": [
+					{"name": "Memory Locket"}
+				],
+				"journal": [
+					{"name": "Miremite"},
+					{"name": "Swamp Squit"},
+					{"name": "Snitchfly"},
+					{"name": "Stilkin"},
+					{"name": "Wardenfly"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "THE SLAB",
+		"area-color": "var(--color-the-slab)",
+		"area-background": "Area_The_Slab.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"quest-items": [
+					{"name": "Flea"}
+				],
+				"upgrades": [
+					{"name": "Spool Fragment"}
+				],
+				"consumables": [
+					{"name": "Frayed Rosary String"},
+					{"name": "Shard Bundle"}
+				],
+				"journal": [
+					{"name": "Drapemite"},
+					{"name": "Penitent"},
+					{"name": "Puny Penitent"},
+					{"name": "Guardfly"},
+					{"name": "Scabfly"},
+					{"name": "Drapefly"}
 				]
 			}
 		]}

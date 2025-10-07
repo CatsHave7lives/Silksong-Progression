@@ -1151,7 +1151,8 @@
 				],
 				"npcs": [
 					{"name": "Pinstress"},
-					{"name": "Lumble the Lucky"}
+					{"name": "Lumble the Lucky"},
+					{"name": "Tall Pilgrim"}
 				],
 				"wishes": [
 					{"name": "OPEN: Grand Gate", "icon": "Grand Gate"}
@@ -1159,9 +1160,6 @@
 				"quest-items": [
 					{"name": "Flea"},
 					{"name": "Craftmetal"}
-				],
-				"granted": [
-					{"name": "OPEN: Grand Gate ", "icon": "Grand Gate"}
 				],
 				"upgrades": [
 					{"name": "Memory Locket"},
@@ -1200,8 +1198,7 @@
 					{"name": "Miremite"},
 					{"name": "Swamp Squit"},
 					{"name": "Snitchfly"},
-					{"name": "Stilkin"},
-					{"name": "Wardenfly"}
+					{"name": "Stilkin"}
 				]
 			}
 		]}
@@ -1225,12 +1222,287 @@
 					{"name": "Shard Bundle"}
 				],
 				"journal": [
+					{"name": "Wardenfly"},
 					{"name": "Drapemite"},
 					{"name": "Penitent"},
 					{"name": "Puny Penitent"},
 					{"name": "Guardfly"},
 					{"name": "Scabfly"},
 					{"name": "Drapefly"}
+				]
+			}
+		]}
+	]}
+]},
+{
+	"action": "ACQUIRE",
+	"entity": "Needolin",
+	"action-color": "var(--color-essential)",
+	"entity-color": "white",
+	"area": [
+	{
+		"title": "MOSS GROTTO",
+		"area-color": "var(--color-moss-grotto)",
+		"area-background": "Area_Moss_Grotto_Cliffside.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"npcs": [
+					{"name": "Courier Tipp"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "WEAVENEST ATLA",
+		"area-color": "var(--color-weavenest-atla)",
+		"area-background": "Area_Weavenest_Atla.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"mappings": [
+					{"name": "Weavenest Atla Map", "icon": "Weavenest Map"}
+				],
+				"npcs": [
+					{"name": "Eva"}
+				],
+				"quest-items": [
+					{"name": "Rune Harp"},
+					{"name": "Mossberry"}
+				],
+				"upgrades": [
+					{"name": "Spool Fragment"},
+					{"name": "Mask Shard"},
+					{"name": "Hunter Crest Evolved"},
+					{"name": "Vesticrest"}
+				],
+				"tools": [
+					{"name": "Weavelight"}
+				],
+				"journal": [
+					{"name": "Servitor Ignim"},
+					{"name": "Pharlid Diver"},
+					{"name": "Skullwing"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "THE MARROW",
+		"area-color": "var(--color-the-marrow)",
+		"area-background": "Area_The_Marrow_Loddie.png",
+		"sub-area": [
+		{
+			"title": "The Prison",
+			"lists": [{
+				"npcs": [
+					{"name": "Loddie"}
+				],
+				"upgrades": [
+					{"name": "Tool Pouch"}
+				],
+				"consumables": [
+					{"name": "Heavy Rosary Necklace"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "DEEP DOCKS",
+		"area-color": "var(--color-deep-docks)",
+		"area-background": "Area_Deep_Docks_The_Forge.png",
+		"sub-area": [
+		{
+			"title": "The Prison",
+			"lists": [{
+				"tools": [
+					{"name": "Silkshot", "icon": "Silkshot Forge Daughter"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "FAR FIELDS",
+		"area-color": "var(--color-far-fields)",
+		"area-background": "Area_Weavenest_Cindril.png",
+		"sub-area": [
+		{
+			"title": "Weavenest Cindril",
+			"lists": [{
+				"quest-items": [
+					{"name": "Rune Harp"}
+				],
+				"tools": [
+					{"name": "Silkspeed Anklets"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "WORMWAYS",
+		"area-color": "var(--color-wormways)",
+		"area-background": "Area_Wormways.png",
+		"sub-area": [
+		{
+			"title": "Weavenest Karn",
+			"lists": [{
+				"upgrades": [
+					{"name": "Sharpdart"}
+				],
+				"journal": [
+					{"name": "Grom"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "GREYMOOR",
+		"area-color": "var(--color-greymoor)",
+		"area-background": "Area_Halfway_Home.png",
+		"sub-area": [
+		{
+			"title": "Halfway Home",
+			"lists": [{
+				"npcs": [
+					{"name": "Exhausted Pilgrim"}
+				],
+				"wishes": [
+					{"name": "Crawbug Clearing", "icon": "Hunt"}
+				],
+				"quest-items": [
+					{"name": "Ragpelt"}
+				],
+				"granted": [
+					{"name": "Crawbug Clearing ", "icon": "Hunt"},
+					{"name": "Bugs of Pharloom ", "icon": "Bugs of Pharloom"}
+				],
+				"upgrades": [
+					{"name": "Crafting Kit"},
+					{"name": "Tool Pouch"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "BELLHART",
+		"area-color": "var(--color-bellhart)",
+		"area-background": "Area_Bellhart.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"npcs": [
+					{"name": "Pavo"},
+					{"name": "Frey"},
+					{"name": "Relic Seeker Scrounge"},
+					{"name": "Pinmaster Plinney"},
+					{"name": "Pondcatcher Reed"}
+				],
+				"wishes": [
+					{"name": "Silver Bells", "icon": "Gather"},
+					{"name": "My Missing Courier", "icon": "Wayfarer"},
+					{"name": "Pinmaster's Oil", "icon": "Wayfarer"}
+				],
+				"quest-items": [
+					{"name": "Silver Bell"}
+				],
+				"granted": [
+					{"name": "Silver Bells ", "icon": "Gather"},
+					{"name": "My Missing Courier ", "icon": "Wayfarer"},
+					{"name": "Restoration of Bellhart", "icon": "Donate"}
+				],
+				"upgrades": [
+					{"name": "Memory Locket"},
+					{"name": "Sharpened Needle"},
+					{"name": "Spool Fragment"}
+				],
+				"tools": [
+					{"name": "Multibinder"}
+				],
+				"consumables": [
+					{"name": "Rosary Necklace"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "BLASTED STEPS",
+		"area-color": "var(--color-blasted-steps)",
+		"area-background": "Area_Blasted_Steps.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"granted": [
+					{"name": "OPEN: Grand Gate ", "icon": "Grand Gate"}
+				],
+				"journal": [
+					{"name": "Squirrm"},
+					{"name": "Last Judge"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "BILEWATER",
+		"area-color": "var(--color-bilewater)",
+		"area-background": "Area_Bilewater_Exhaust_Organ.png",
+		"sub-area": [
+		{
+			"title": "Weavenest Murglin",
+			"lists": [{
+				"quest-items": [
+					{"name": "Ruined Tool"}
+				]
+			}
+		]},
+		{
+			"title": "Exhaust Organ",
+			"lists": [{
+				"quest-items": [
+					{"name": "Flea"}
+				],
+				"upgrades": [
+					{"name": "Cross Stitch"}
+				],
+				"consumables": [
+					{"name": "Silkeater"}
+				],
+				"journal": [
+					{"name": "Phantom"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "CHORAL CHAMBERS",
+		"area-color": "var(--color-choral-chambers)",
+		"area-background": "Area_Choral_Chambers_Grand_Bellway.png",
+		"sub-area": [
+		{
+			"title": "Grand Bellway",
+			"lists": [{
+				"mappings": [
+					{"name": "Choral Chambers Map", "icon": "Citadel Map"}
+				],
+				"upgrades": [
+					{"name": "Memory Locket"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "THE SLAB",
+		"area-color": "var(--color-the-slab)",
+		"area-background": "Area_The_Slab.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"npcs": [
+					{"name": "Old Penitent"}
 				]
 			}
 		]}

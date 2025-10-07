@@ -194,8 +194,8 @@ section.area::before {
 	mask-image: 
 	linear-gradient(to bottom,
 	transparent 0%,
-	black 50px,
-	black calc(100% - 25px),
+	black 150px,
+	black calc(100% - 50px),
 	transparent 100%
 	);
 	z-index: -1;

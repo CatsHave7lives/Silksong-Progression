@@ -49,8 +49,8 @@ function loadCheckboxStates() {
 				<h2 class="advancement">
 					<div class="hr-left"></div>
 					<span class="title">
-					<span style="color: ${adv['action-color']}">${adv.action}: </span>
-					<span style="color: ${adv['entity-color']}">${adv.entity}</span>
+						<span style="color: ${adv['action-color']}">${adv.action}: </span>
+						<span style="color: ${adv['entity-color']}">${adv.entity}</span>
 					</span>
 					<div class="hr-right"></div>
 				</h2>
@@ -68,10 +68,10 @@ function loadCheckboxStates() {
 						</h4>
 					`;
 					if (subArea.lists && Array.isArray(subArea.lists)) {
-						const listCollection = subArea.lists[0]; // Renamed for clarity
+						const listCollection = subArea.lists[0];
 					
-						for (const categoryKey in listCollection) { // <-- FIXED (camelCase 'K')
-							const listData = listCollection[categoryKey]; // <-- Uses the corrected variable
+						for (const categoryKey in listCollection) {
+							const listData = listCollection[categoryKey];
 							generatedHTML += objective.createObjectiveListHTML(categoryKey, listData, globalItemCounts, globalTotalCounts); // <-- Passes the corrected variable
 						}
 					}

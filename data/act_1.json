@@ -345,7 +345,7 @@
 	{
 		"title": "THE MARROW",
 		"area-color": "var(--color-the-marrow)",
-		"area-background": "Area_The_Marrow_Bellways.png",
+		"area-background": "Area_The_Marrow_Bellway.png",
 		"sub-area": [
 		{
 			"title": "Bellway Entrance",
@@ -1025,7 +1025,7 @@
 	{
 		"title": "GREYMOOR",
 		"area-color": "var(--color-grey-moor)",
-		"area-background": "Area_GreyMoor.png",
+		"area-background": "Area_Greymoor.png",
 		"sub-area": [
 		{
 			"title": "",

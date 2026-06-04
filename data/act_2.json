@@ -1,0 +1,122 @@
+{
+"advancement": [
+{
+	"action": "ENTER",
+	"entity": "The Citadel",
+	"action-color": "var(--color-essential)",
+	"entity-color": "white",
+	"area": [{
+		"title": "BLASTED STEPS",
+		"area-color": "var(--color-blasted-steps)",
+		"area-background": "Area_Blasted_Steps.png",
+		"sub-area": [
+		{
+			"title": "The Flea Caravan",
+			"lists": [{
+				"upgrades": [
+                    {"name": "Spool Fragment"}
+                ]
+			}
+		]}
+	]},
+	{
+		"title": "GRAND GATE",
+		"area-color": "var(--color-grand-gate",
+		"area-background": "Area_Grand_Gate.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"mappings": [
+					{"name": "Grand Gate Map", "icon": "Citadel Map"}
+				],
+				"wishes": [
+					{"name": "Silent Halls", "icon": "The Great Citadel"}
+				],
+				"granted": [
+					{"name": "OPEN: Grand Gate ", "icon": "Grand Gate"}
+				],
+				"upgrades": [
+					{"name": "Spool Fragment"}
+				]
+			}]
+        }]
+    },
+	{
+		"title": "UNDERWORKS",
+		"area-color": "var(--color-underworks",
+		"area-background": "Area_Underworks.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"mappings": [
+					{"name": ""}
+				],
+				"npcs": [
+					{"name": ""}
+				],
+				"wishes": [
+					{"name": "", "icon": ""}
+				],
+				"quest-items": [
+					{"name": ""}
+				],
+				"granted": [
+					{"name": " ", "icon": ""}
+				],
+				"upgrades": [
+					{"name": ""}
+				],
+				"tools": [
+					{"name": ""}
+				],
+				"consumables": [
+					{"name": ""}
+				],
+				"journal": [
+					{"name": ""}
+				]
+			}
+		]}
+	]},
+    {
+		"title": "CHORAL CHAMBERS",
+		"area-color": "var(--color-choral-chambers)",
+		"area-background": "Area_Choral_Chambers.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"mappings": [
+					{"name": ""}
+				],
+				"npcs": [
+					{"name": ""}
+				],
+				"wishes": [
+					{"name": "", "icon": ""}
+				],
+				"quest-items": [
+					{"name": ""}
+				],
+				"granted": [
+					{"name": " ", "icon": ""}
+				],
+				"upgrades": [
+					{"name": ""}
+				],
+				"tools": [
+					{"name": ""}
+				],
+				"consumables": [
+					{"name": ""}
+				],
+				"journal": [
+					{"name": ""}
+				]
+			}
+		]}
+	]}
+]}
+]}

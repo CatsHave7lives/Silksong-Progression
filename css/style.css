@@ -22,7 +22,12 @@
 	--color-wormways: rgb(150, 130, 110);
 	--color-greymoor: rgb(150, 190, 180);
 	--color-shellwood: rgb(180, 180, 150);
-	--color-bellhart: rgb(250, 200, 140);
+	--color-bellhart: rgb(235, 190, 135);
+	--color-bilewater: rgb(190, 195, 105);
+	--color-blasted-steps: rgb(195, 160, 120);
+	--color-choral-chambers: rgb(225, 220, 160);
+	--color-grand-gate: rgb(245, 240, 215);
+	--color-the-slab: rgb(150, 150, 165);
 	/*category*/
 	--color-category-title: rgb(175, 175, 175);
 	/*action*/
@@ -39,6 +44,41 @@ body {
 	background-color: #2a2a2a;
 }
 
+/*Navigation*//*--------------------------------------------------------------*/
+
+nav.act-navigation {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	padding: 15px 20px;
+	background-color: rgba(20, 20, 20, 0.8);
+	position: relative;
+	z-index: 10;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+nav.act-navigation a {
+	color: var(--color-category-title);
+	text-decoration: none;
+	font-family: TrajanPro, serif;
+	font-size: 1.2rem;
+	padding: 5px 10px;
+	transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
+	text-shadow: 0px 2px 2px black;
+}
+
+nav.act-navigation a:hover {
+	color: white;
+	text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.6);
+}
+
+/* Optional: Highlight the current page */
+nav.act-navigation a.active {
+	color: var(--color-essential);
+	border-bottom: 2px solid var(--color-optional);
+}
+
 /*Act*//*---------------------------------------------------------------------*/
 
 section.act-background {
@@ -48,7 +88,7 @@ section.act-background {
 	width: 100vw;
 	height: 100vh;
 	z-index: -1;
-	background-image: url('../assets/images/menu/Menu_Theme_Silksong.png');
+	background-image: var(--page-background, url('../assets/images/menu/Menu_Theme_Silksong.png'));
 	filter: brightness(0.5) blur(5px);
 	background-size: cover;
 	background-position: 80%;

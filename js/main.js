@@ -22,7 +22,9 @@ function loadCheckboxStates() {
 		const container = document.getElementById('content-container');
 		if (!container) { return; }
 		
-		const response = await fetch('data/act_1.json');
+		const dataFile = container.getAttribute('data-json') || 'data/act_1.json';
+		
+		const response = await fetch(dataFile);
 		const data = await response.json();
 
 		const globalTotalCounts = new Map();

@@ -572,7 +572,8 @@
 					{"name": "Flea"}
 				],
 				"tools": [
-					{"name": "Dead Bug's Purse"}
+					{"name": "Dead Bug's Purse (Classic Exclusive)", "icon": "Dead Bug's Purse"},
+					{"name": "Shell Satchel (Steel Soul Exclusive)", "icon": "Shell Satchel"}
 				],
 				"journal": [
 					{"name": "Winged Pilgrim Bellbearer"}
@@ -1108,7 +1109,8 @@
 				"npcs": [
 					{"name": "Green Prince"},
 					{"name": "Crull & Benjin"},
-					{"name": "Styx"}
+					{"name": "Styx (Classic Exclusive)", "icon": "Styx"},
+					{"name": "Skynx (Steel Soul Exclusive)", "icon": "Skynx"}
 				],
 				"wishes": [
 					{"name": "Roach Guts (Wish)", "icon": "Hunt"}
@@ -1131,6 +1133,7 @@
 				],
 				"journal": [
 					{"name": "Muckroach"},
+					{"name": "Muckmaggot"},
 					{"name": "Roachfeeder"},
 					{"name": "Roachkeeper"},
 					{"name": "Wraith"}
@@ -1150,6 +1153,7 @@
 					{"name": "Blasted Steps Map"}
 				],
 				"npcs": [
+					{"name": "Steel Seer Zi (Steel Soul Exclusive)", "icon": "Steel Seer Zi"},
 					{"name": "Pinstress"},
 					{"name": "Lumble the Lucky"},
 					{"name": "Tall Pilgrim"}
@@ -1170,6 +1174,7 @@
 				],
 				"consumables": [
 					{"name": "Frayed Rosary String"},
+					{"name": "Silkeater (Classic Exclusive)", "icon": "Silkeater"},
 					{"name": "Beast Shard"}
 				],
 				"journal": [
@@ -1178,7 +1183,8 @@
 					{"name": "Pharlid"},
 					{"name": "Pilgrim Hiker"},
 					{"name": "Driznit"},
-					{"name": "Great Conchflies"}
+					{"name": "Great Conchflies"},
+					{"name": "Squirrm"}
 				]
 			}
 		]}
@@ -1191,6 +1197,9 @@
 		{
 			"title": "",
 			"lists": [{
+				"quest-items": [
+					{"name": "Flea"}
+				],
 				"upgrades": [
 					{"name": "Memory Locket"}
 				],
@@ -1209,15 +1218,21 @@
 		"area-background": "Area_The_Slab.png",
 		"sub-area": [
 		{
-			"title": "",
+			"title": "Imprisoned",
 			"lists": [{
+				"mappings": [
+					{"name": "The Slab Map"}
+				],
 				"quest-items": [
-					{"name": "Flea"}
+					{"name": "key_of_Indolent"},
+					{"name": "Flea"},
+					{"name": "Key_of_Heretic"}
 				],
 				"upgrades": [
 					{"name": "Spool Fragment"}
 				],
 				"consumables": [
+					{"name": "Frayed Rosary String"},
 					{"name": "Frayed Rosary String"},
 					{"name": "Shard Bundle"}
 				],
@@ -1435,11 +1450,7 @@
 		{
 			"title": "",
 			"lists": [{
-				"granted": [
-					{"name": "OPEN: Grand Gate ", "icon": "Grand Gate"}
-				],
 				"journal": [
-					{"name": "Squirrm"},
 					{"name": "Last Judge"}
 				]
 			}
@@ -1503,6 +1514,20 @@
 			"lists": [{
 				"npcs": [
 					{"name": "Old Penitent"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "THE CRADLE",
+		"area-color": "var(--color-the-cradle)",
+		"area-background": "Area_The_Cradle_Terminus",
+		"sub-area": [
+		{
+			"title": "Terminus",
+			"lists": [{
+				"consumables": [
+					{"name": "Silkeater"}
 				]
 			}
 		]}

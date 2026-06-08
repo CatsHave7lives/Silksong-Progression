@@ -1224,9 +1224,9 @@
 					{"name": "The Slab Map"}
 				],
 				"quest-items": [
-					{"name": "Key_of_Indolent"},
+					{"name": "Key of Indolent"},
 					{"name": "Flea"},
-					{"name": "Key_of_Heretic"}
+					{"name": "Key of Heretic"}
 				],
 				"upgrades": [
 					{"name": "Spool Fragment"}
@@ -1408,6 +1408,9 @@
 		{
 			"title": "",
 			"lists": [{
+				"mappings": [
+					{"name": "Ventrica Pins"}
+				],
 				"npcs": [
 					{"name": "Pavo"},
 					{"name": "Frey"},

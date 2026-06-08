@@ -2,10 +2,25 @@
 "advancement": [
 {
 	"action": "ENTER",
-	"entity": "The Citadel",
-	"action-color": "var(--color-essential)",
+	"entity": "The Grand Gate",
+	"action-color": "var(--color-optional)",
 	"entity-color": "white",
 	"area": [{
+        "title": "BELLHART",
+		"area-color": "var(--color-bellhart)",
+		"area-background": "Area_Bellhart.png",
+		"sub-area": [
+		{
+			"title": "Shakra",
+			"lists": [{
+				"mappings": [
+					{"name": "Dark Marker"},
+					{"name": "Bronze Marker"}
+                ]
+            }
+		]}
+    ]},
+    {
 		"title": "BLASTED STEPS",
 		"area-color": "var(--color-blasted-steps)",
 		"area-background": "Area_Blasted_Steps.png",
@@ -21,7 +36,7 @@
 	]},
 	{
 		"title": "GRAND GATE",
-		"area-color": "var(--color-grand-gate",
+		"area-color": "var(--color-grand-gate)",
 		"area-background": "Area_Grand_Gate.png",
 		"sub-area": [
 		{
@@ -31,7 +46,7 @@
 					{"name": "Grand Gate Map", "icon": "Citadel Map"}
 				],
 				"wishes": [
-					{"name": "Silent Halls", "icon": "The Great Citadel"}
+					{"name": "SEARCH: Silent Halls", "icon": "The Great Citadel"}
 				],
 				"granted": [
 					{"name": "OPEN: Grand Gate ", "icon": "Grand Gate"}
@@ -39,9 +54,9 @@
 				"upgrades": [
 					{"name": "Spool Fragment"}
 				]
-			}]
-        }]
-    },
+			}
+        ]}
+    ]},
 	{
 		"title": "UNDERWORKS",
 		"area-color": "var(--color-underworks",
@@ -51,31 +66,29 @@
 			"title": "",
 			"lists": [{
 				"mappings": [
-					{"name": ""}
-				],
-				"npcs": [
-					{"name": ""}
-				],
-				"wishes": [
-					{"name": "", "icon": ""}
+					{"name": "Underworks Map"}
 				],
 				"quest-items": [
-					{"name": ""}
-				],
-				"granted": [
-					{"name": " ", "icon": ""}
+					{"name": "Bone Scroll"}
 				],
 				"upgrades": [
-					{"name": ""}
+					{"name": "Spool Fragment"}
 				],
 				"tools": [
-					{"name": ""}
+					{"name": "Delver's Drill"}
 				],
 				"consumables": [
-					{"name": ""}
+					{"name": "Shard Bundle"},
+					{"name": "Frayed Rosary String"},
+					{"name": "Frayed Rosary String"}
 				],
 				"journal": [
-					{"name": ""}
+					{"name": "Underpoke"},
+					{"name": "Underloft"},
+					{"name": "Underworker"},
+					{"name": "Underscrub"},
+					{"name": "Undercrank"},
+					{"name": "Undersweep"}
 				]
 			}
 		]}
@@ -88,8 +101,348 @@
 		{
 			"title": "",
 			"lists": [{
+				"wishes": [
+					{"name": "ASCEND: Pharloom's Crown", "icon": "The Great Citadel"}
+				]
+			}
+		]}
+	]}
+]},
+{
+    "action": "ACQUIRE",
+    "entity": "Pharloom's Crown",
+    "action-color": "var(--color-essential)",
+    "entity-color": "white",
+    "area": [{
+        "title": "MOSS GROTTO",
+        "area-color": "var(--color-the-slab)",
+        "area-background": "Area_Bone_Bottom.png",
+        "sub-area": [
+        {
+            "title": "Bone Bottom",
+            "lists": [{
+				"wishes": [
+					{"name": "An Icon of Hope", "icon": "Donate"}
+				],
+				"granted": [
+					{"name": "An Icon of Hope ", "icon": "Donate"}
+				],
+				"consumables": [
+					{"name": "Hornet Statuette"}
+				]
+            }
+        ]},
+		{
+			"title": "Moss Home",
+			"lists": [{
+				"quest-items": [
+					{"name": "Mossberry Stew"}
+				]
+			}
+		]}
+    ]},
+    {
+		"title": "WORMWAYS",
+		"area-color": "var(--color-wormways)",
+		"area-background": "Area_Wormways.png",
+		"sub-area": [
+		{
+			"title": "Entrance",
+			"lists": [{
+				"journal": [
+					{"name": "Cragglite"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "FAR FIELDS",
+		"area-color": "var(--color-far-fields)",
+		"area-background": "Area_Far_Fields.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"quest-items": [
+					{"name": "Horn Fragment"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "GREYMOOR",
+		"area-color": "var(--color-greymoor)",
+		"area-background": "Area_Halfway_Home.png",
+		"sub-area": [
+		{
+			"title": "Halfway Home",
+			"lists": [{
+				"quest-items": [
+					{"name": "Vintage Nectar"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "BELLHART",
+		"area-color": "var(--color-bellhart)",
+		"area-background": "Area_Bellhart.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"npcs": [
+					{"name": "Couriers Tipp & Pill", "icon": "Tipp & Pill"}
+				],
+				"wishes": [
+					{"name": "My Missing Brother", "icon": "Wayfarer"},
+					{"name": "Bone Bottom Supplies", "icon": "Delivery"},
+					{"name": "Pilgrim's Rest Supplies", "icon": "Delivery"},
+					{"name": "Queen's Egg ", "icon": "Delivery"},
+					{"name": "Courier's Rasher ", "icon": "Delivery"},
+					{"name": "Bellhart's Glory", "icon": "Donate"},
+					{"name": "Songclave Supplies", "icon": "Delivery"},
+					{"name": "Savage Beastfly ", "icon": "Grand Hunt"}
+				],
+				"quest-items": [
+					{"name": "Courier's Swag"},
+					{"name": "Courier's Rasher"},
+					{"name": "Queen's Egg"}
+				],
+				"granted": [
+					{"name": "My Missing Brother ", "icon": "Wayfarer"},
+					{"name": "Bone Bottom Supplies ", "icon": "Delivery"},
+					{"name": "Pilgrim's Rest Supplies ", "icon": "Delivery"},
+					{"name": "Queen's Egg  ", "icon": "Delivery"},
+					{"name": "Courier's Rasher  ", "icon": "Delivery"},
+					{"name": "Bellhart's Glory ", "icon": "Donate"},
+					{"name": "Songclave Supplies ", "icon": "Delivery"},
+					{"name": "Savage Beastfly  ", "icon": "Grand Hunt"}
+				],
+				"upgrades": [
+					{"name": "Bellhome Key"},
+					{"name": "Desk"},
+					{"name": "Gleamlights"},
+					{"name": "Bell Lacquer"},
+					{"name": "Personal Spa"},
+					{"name": "Mask Shard"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "CHORAL CHAMBERS",
+		"area-color": "var(--color-choral-chambers)",
+		"area-background": "Area_Choral_Chambers.png",
+		"sub-area": [
+		{
+			"title": "The Halls",
+			"lists": [{
+				"npcs": [
+					{"name": "Loyal Mergwin"},
+					{"name": "Jubilana"}
+				],
+				"wishes": [
+					{"name": "Great Taste of Pharloom", "icon": "Gather"}
+				],
+				"quest-items": [
+					{"name": "Flea"},
+					{"name": "Cogheart Piece"},
+					{"name": "Flea"},
+					{"name": "Fine Pin"},
+					{"name": "Choir Cloak"}
+				],
+				"consumables": [
+					{"name": "Silkeater"},
+					{"name": "Rosary Necklace"},
+					{"name": "Heavy Rosary Necklace"},
+					{"name": "Rosary Necklace"},
+					{"name": "Silkeater"}
+
+				],
+				"journal": [
+					{"name": "Choristor"},
+					{"name": "Reed"},
+					{"name": "Choir Pouncer"},
+					{"name": "Choir Bellbearer"},
+					{"name": "Choir Flyer"},
+					{"name": "Choir Hornhead"},
+					{"name": "Choir Elder"},
+					{"name": "Envoy"},
+					{"name": "Cogworker"},
+					{"name": "Clawmaiden"},
+					{"name": "Grand Reed"}
+				]
+			}
+		]},
+		{
+			"title": "First Shrine",
+			"lists": [{
+				"npcs": [
+					{"name": "Caretaker"}
+				],
+				"quest-items": [
+					{"name": "White Key"}
+				]
+			}
+		]},
+		{
+			"title": "Songclave",
+			"lists": [{
+				"npcs": [
+					{"name": "Scared Pilgrim"}
+				],
+				"wishes": [
+					{"name": "Building Up Songclave", "icon": "Donate"},
+					{"name": "Fine Pins", "icon": "Hunt"},
+					{"name": "The Wandering Merchant", "icon": "Wayfarer"},
+					{"name": "Cloaks of the Choir", "icon": "Hunt"},
+					{"name": "Balm for The Wounded", "icon": "Wayfarer"},
+					{"name": "Strengthening Songclave", "icon": "Donate"},
+					{"name": "The Wailing Mother", "icon": "Grand Hunt"}
+				],
+				"quest-items": [
+					{"name": "Simple Key"}
+				],
+				"granted": [
+					{"name": "Building Up Songclave ", "icon": "Donate"},
+					{"name": "Fine Pins ", "icon": "Hunt"},
+					{"name": "The Wandering Merchant ", "icon": "Wayfarer"},
+					{"name": "Cloaks of the Choir ", "icon": "Hunt"},
+					{"name": "Balm for The Wounded ", "icon": "Wayfarer"},
+					{"name": "Strengthening Songclave ", "icon": "Donate"},
+					{"name": "The Wailing Mother ", "icon": "Grand Hunt"}
+				],
+				"upgrades": [
+					{"name": "Mask Shard"}
+				],
+				"tools": [
+					{"name": "Ascendant's Grip"},
+					{"name": "Spool Extender"}
+				],
+				"consumables": [
+					{"name": "Heavy Rosary Necklace"},
+					{"name": "Heavy Rosary Necklace"},
+					{"name": "Heavy Rosary Necklace"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "THE SLAB",
+		"area-color": "var(--color-the-slab)",
+		"area-background": "Area_The_Slab.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"quest-items": [
+					{"name": "Broodmother's Eye"}
+				],
+				"consumables": [
+					{"name": "Frayed Rosary String"}
+				],
+				"journal": [
+					{"name": "Freshfly"},
+					{"name": "Broodmother"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "WHITEWARD",
+		"area-color": "var(--color-whiteward",
+		"area-background": "Area_Whiteward.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
 				"mappings": [
-					{"name": ""}
+					{"name": "Whiteward Map"}
+				],
+				"quest-items": [
+					{"name": "Choral Commandment"}
+				],
+				"upgrades": [
+					{"name": "Spool Fragment"},
+					{"name": "Spool Fragment"}
+				],
+				"tools": [
+					{"name": "Injector Band"}
+				],
+				"consumables": [
+					{"name": "Silkeater"}
+				],
+				"journal": [
+					{"name": "Dreg Husk"},
+					{"name": "Mortician"},
+					{"name": "Surgeon"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "UNDERWORKS",
+		"area-color": "var(--color-underworks",
+		"area-background": "Area_Underworks.png",
+		"sub-area": [
+		{
+			"title": "",
+			"lists": [{
+				"quest-items": [
+					{"name": "Flea"},
+					{"name": "Craftmetal"}
+				],
+				"upgrades": [
+					{"name": "Spool Fragment"},
+					{"name": "Clawline"}
+				],
+				"journal": [
+					{"name": "Cogwork Underfly"},
+					{"name": "Cogwork Hauler"}
+				]
+			}
+		]}
+	]},
+	{
+		"title": "COGWORK CORE",
+		"area-color": "var(--color-cogwork-core",
+		"area-background": "Area_Congwork_Core_Elevator.png",
+		"sub-area": [
+		{
+			"title": "Cogwork Elevator",
+			"lists": [{
+				"npcs": [
+					{"name": "Cogwork Statues"}
+				],
+				"wishes": [
+					{"name": "LEARN: Conductor's Melody", "icon": "Conductor's Melody"},
+					{"name": "LEARN: Architect's Melody", "icon": "Architect's Melody"},
+					{"name": "LEARN: Vaultkeeper's Melody", "icon": "Vaultkeeper's Melody"}
+				],
+				"journal": [
+					{"name": "Cogwork Dancers"}
+				]
+			}
+		]}
+	]}
+]},
+{
+	"action": "ACQUIRE",
+	"entity": "The Threefold Melody",
+	"action-color": "var(--color-essential)",
+	"entity-color": "white",
+	"area": [
+	{
+		"title": "COGWORK CORE",
+		"area-color": "var(--color-cogwork-core",
+		"area-background": "Area_Congwork_Core.png",
+		"sub-area": [
+		{
+			"title": "The Core",
+			"lists": [{
+				"mappings": [
+					{"name": "Cogwork Core Map"}
 				],
 				"npcs": [
 					{"name": ""}
@@ -119,4 +472,5 @@
 		]}
 	]}
 ]}
+
 ]}
